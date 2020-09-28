@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 data/
 configkey.py
+=======
+>>>>>>> da65f4088e5d39476c1529c7b09fd8320306a974
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -10,7 +13,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+<<<<<<< HEAD
 env/
+=======
+>>>>>>> da65f4088e5d39476c1529c7b09fd8320306a974
 build/
 develop-eggs/
 dist/
@@ -23,9 +29,18 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
 *.egg-info/
 .installed.cfg
 *.egg
+=======
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+>>>>>>> da65f4088e5d39476c1529c7b09fd8320306a974
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -40,13 +55,23 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+<<<<<<< HEAD
+=======
+.nox/
+>>>>>>> da65f4088e5d39476c1529c7b09fd8320306a974
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< HEAD
 .hypothesis/
+=======
+*.py,cover
+.hypothesis/
+.pytest_cache/
+>>>>>>> da65f4088e5d39476c1529c7b09fd8320306a974
 
 # Translations
 *.mo
@@ -55,6 +80,11 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
+<<<<<<< HEAD
+=======
+db.sqlite3
+db.sqlite3-journal
+>>>>>>> da65f4088e5d39476c1529c7b09fd8320306a974
 
 # Flask stuff:
 instance/
@@ -72,15 +102,39 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+<<<<<<< HEAD
 # pyenv
 .python-version
 
 # celery beat schedule file
 celerybeat-schedule
+=======
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+>>>>>>> da65f4088e5d39476c1529c7b09fd8320306a974
 
 # SageMath parsed files
 *.sage.py
 
+<<<<<<< HEAD
 # dotenv
 .env
 
@@ -88,6 +142,16 @@ celerybeat-schedule
 .venv
 venv/
 ENV/
+=======
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+>>>>>>> da65f4088e5d39476c1529c7b09fd8320306a974
 
 # Spyder project settings
 .spyderproject
@@ -100,4 +164,13 @@ ENV/
 /site
 
 # mypy
+<<<<<<< HEAD
 .mypy_cache/
+=======
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+>>>>>>> da65f4088e5d39476c1529c7b09fd8320306a974
